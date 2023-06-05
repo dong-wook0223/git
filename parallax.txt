@@ -1,0 +1,48 @@
+
+.content {
+            background-color: rgba(0,0,0,0.2);  /*배경 컬러 흐르게*/
+            transform: translate(-50%, -8%);    /*배경위치*/
+            position: absolute;                 /*배경배치하기*/
+            left: 50%;
+            color: greenyellow;
+            text-align: center;                 /*글자 속성:가운데*/
+            padding: 60px;                      /*content영역확장*/
+            width: 500px;                       /*가로*/
+            height: 630px;                      /*세로*/
+            }
+.beer {
+            justify-content: center;            /*가로정렬: 가운데*/
+            align-content: center;              /*여러줄정렬: 가운데*/
+            display: flex;                      /*옆으로 나열*/
+            flex-wrap: nowrap;                  /*줄바꾸기 x*/
+            }
+
+.card>img {
+            width: 200px;                       /*가로*/
+            height: 120px;                      /*세로*/
+            transform: translate(0%, 47%);      /*이미지 위치 변경*/
+            padding: 0 50px 0px;               /*이미지 영역:위 오른쪽 아래*/
+            }
+.text {  
+            background-color: white;            /*배경색*/
+            margin: 50px;                       /*외부영역*/
+            color: black;                       /*글자색*/
+                
+            }
+.card {
+            margin: -60px 0 0 0;                /*card외부 영역*/
+            }
+a:link {   
+            border: 1px solid #ccc;             /*버튼 테두리*/
+            color: #b76666;                     /*글자색*/    
+            text-decoration: none;              /*밑줄x */
+            border-bottom: none;                /*테두리 아랫줄x */
+            background-color: aquamarine;       /*배경색*/
+                                     
+            }
+a:visited {
+            color: white;                       /*글자색*/
+            text-decoration: none;              /*밑줄x */    
+            border-bottom: none;                /*테두리 아랫줄x */
+            background-color: green;            /*배경색*/
+            }
